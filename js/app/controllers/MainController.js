@@ -2,4 +2,6 @@ function MainController () {
   
 }
 
-angular.controller("MainController", MainController);
+angular
+  .module("app")
+  .controller("MainController", MainController);
